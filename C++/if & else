@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num;
+    cout<<"Enter a number: ";
+    cin>>num;
+
+    // Basic if-else statement
+    if (num > 10) {
+        cout << "Number is greater than 10." << endl;
+    } else if (num < 10) {
+        cout << "Number is less than 10." << endl;
+    } else {
+        cout << "Number is equal to 10." << endl;
+    }
+
+    // Nested if statement
+    if (num > 0) {
+        cout << "Number is positive." << endl;
+
+        if (num % 2 == 0) {
+            cout << "Number is even." << endl;
+        } else {
+            cout << "Number is odd." << endl;
+        }
+    } else if (num < 0) {
+        cout << "Number is negative." << endl;
+    } else {
+        cout << "Number is zero." << endl;
+    }
+
+    return 0;
+}

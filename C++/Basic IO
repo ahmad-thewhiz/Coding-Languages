@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cout<<"Enter a number"<<"\n";
+    cin>>a; //input
+    cout<<"Output is "<<a<<endl; //output
+    //use can use either "\n" or std to change the line for printing
+    return 0;
+}
